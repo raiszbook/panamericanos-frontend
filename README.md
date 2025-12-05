@@ -15,13 +15,14 @@ La app es multiplataforma:
 Está conectada al backend oficial desarrollado en Spring Boot 3 + WebFlux, consumiendo APIs REST para administrar buses, equipos, asignaciones, transportistas y más.
 
 🚀 Tecnologías Principales
-  Tecnología	Uso
-    Flutter 3.x	Framework principal
-    Dart	Lenguaje de programación
-    Dio / Http	Consumo de APIs REST
-    Provider / Riverpod / Bloc	Administración de estado (según arquitectura elegida)
-    QR / Barcode	Visualización de códigos para buses
-    Image Picker	Subida de fotos desde cámara/galería
+  
+    Tecnología	Uso
+      Flutter 3.x	Framework principal
+      Dart	Lenguaje de programación
+      Dio / Http	Consumo de APIs REST
+      Provider / Riverpod / Bloc	Administración de estado (según arquitectura elegida)
+      QR / Barcode	Visualización de códigos para buses
+      Image Picker	Subida de fotos desde cámara/galería
 🧩 Módulos y Pantallas
   🚍 Gestión de Buses
 
