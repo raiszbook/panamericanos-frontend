@@ -34,56 +34,56 @@ Está conectada al backend oficial desarrollado en Spring Boot 3 + WebFlux, cons
   
     -Subir fotos desde cámara o galería.
 
-🏆 Gestión de Equipos Deportivos
-
-Registro de equipos.
-
-Asociación de equipo con un deporte.
-
-Listado general.
-
-🚚 Gestión de Transportistas
-
-Registro de transportistas.
-
-Visualización de buses asignados.
-
-🛣️ Asignación de Rutas
-
-Crear rutas.
-
-Selección de bus + equipo + transportista.
-
-Vista de rutas activas.
-
-🔐 Autenticación (en roadmap)
-
-Headers obligatorios según backend.
-
-Token para seguridad.
+    🏆 Gestión de Equipos Deportivos
+    
+    -Registro de equipos.
+    
+    -Asociación de equipo con un deporte.
+    
+    -Listado general.
+    
+    🚚 Gestión de Transportistas
+    
+    -Registro de transportistas.
+    
+    -Visualización de buses asignados.
+    
+    🛣️ Asignación de Rutas
+    
+    -Crear rutas.
+    
+    -Selección de bus + equipo + transportista.
+    
+    -Vista de rutas activas.
+    
+    🔐 Autenticación (en roadmap)
+    
+    -Headers obligatorios según backend.
+    
+    -Token para seguridad.
 
 🧱 Arquitectura Recomendada del Proyecto
-/lib
-  /config            → URLs, constantes, estilos
-  /models            → DTOs y entidades
-  /services          → Clientes HTTP (Dio / Http)
-  /providers         → Estado (Provider/Riverpod)
-  /pages
-    /bus
-      bus_list_page.dart
-      bus_form_page.dart
-      bus_qr_page.dart
-    /equipo
-      equipo_list_page.dart
-      equipo_form_page.dart
-    /transportista
-      transportista_list_page.dart
-      transportista_form_page.dart
-    /asignacion
-      asignacion_list_page.dart
-      asignacion_form_page.dart
-  /widgets           → Componentes reutilizables
-  main.dart
+    /lib
+      /config            → URLs, constantes, estilos
+      /models            → DTOs y entidades
+      /services          → Clientes HTTP (Dio / Http)
+      /providers         → Estado (Provider/Riverpod)
+      /pages
+        /bus
+          bus_list_page.dart
+          bus_form_page.dart
+          bus_qr_page.dart
+        /equipo
+          equipo_list_page.dart
+          equipo_form_page.dart
+        /transportista
+          transportista_list_page.dart
+          transportista_form_page.dart
+        /asignacion
+          asignacion_list_page.dart
+          asignacion_form_page.dart
+      /widgets           → Componentes reutilizables
+      main.dart
 
 
 ✔ Modular
@@ -92,19 +92,19 @@ Token para seguridad.
 
 🛠️ Cómo Ejecutar el Proyecto
 📱 Android
-flutter run -d android
+    flutter run -d android
 
 🍎 iOS
-flutter run -d ios
+    flutter run -d ios
 
 
 (requiere MacOS + Xcode)
 
 🌐 Web (Chrome u otro navegador)
-flutter run -d chrome
+    flutter run -d chrome
 
 🔧 Mostrar dispositivos disponibles
-flutter devices
+    flutter devices
 
 🔗 Conexión con el Backend
 
@@ -112,36 +112,36 @@ Configurar la URL base en un archivo como:
 
 /lib/config/api_config.dart
 
-class ApiConfig {
-  static const String baseUrl = "http://localhost:8080"; 
-  // o la URL de tu backend en la nube
-}
+    class ApiConfig {
+      static const String baseUrl = "http://localhost:8080"; 
+      // o la URL de tu backend en la nube
+    }
 
 📦 Variables y Entorno
 
 Puedes crear un archivo .env (si usas flutter_dotenv):
 
-API_URL=https://tudominio-backend.com
+    API_URL=https://tudominio-backend.com
 
 🧪 Pruebas
 
 Soporte para pruebas unitarias y widget tests:
 
-flutter test
+    flutter test
 
 🛤️ Roadmap
 
- Autenticación completa con backend
-
- Mejorar estilo con Material 3
-
- Dashboard general para operaciones
-
- Mapa y geolocalización de buses
-
- Notificaciones push
-
- Offline mode para zonas sin internet
+     Autenticación completa con backend
+    
+     Mejorar estilo con Material 3
+    
+     Dashboard general para operaciones
+    
+     Mapa y geolocalización de buses
+    
+     Notificaciones push
+    
+     Offline mode para zonas sin internet
 
 👨‍💻 Autor
 
