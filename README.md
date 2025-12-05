@@ -24,6 +24,7 @@ Está conectada al backend oficial desarrollado en Spring Boot 3 + WebFlux, cons
       QR / Barcode	Visualización de códigos para buses
       Image Picker	Subida de fotos desde cámara/galería
 🧩 Módulos y Pantallas
+
     🚍 Gestión de Buses
     
       -Listar buses con filtros.
