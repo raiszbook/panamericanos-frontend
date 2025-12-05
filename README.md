@@ -164,3 +164,22 @@ GitHub: https://github.com/raiszbook
 🏁 Estado del Proyecto
 
 🚧 En desarrollo — versión inicial del Frontend panamericano.
+
+Comandos de build para tu sección “Cómo ejecutar / build”
+
+### 📱 Build Android (APK debug)
+```bash
+flutter build apk
+
+
+flutter build appbundle
+
+flutter build web
+
+flutter test
+
+
+
+
+
+
