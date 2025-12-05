@@ -34,33 +34,37 @@ Está conectada al backend oficial desarrollado en Spring Boot 3 + WebFlux, cons
   
     -Subir fotos desde cámara o galería.
 
-  🏆 Gestión de Equipos Deportivos
+  
+    🏆 Gestión de Equipos Deportivos
+      
+      -Registro de equipos.
+      
+      -Asociación de equipo con un deporte.
+      
+      -Listado general.
+
     
-    -Registro de equipos.
+    🚚 Gestión de Transportistas
+      
+      -Registro de transportistas.
+      
+      -Visualización de buses asignados.
+
     
-    -Asociación de equipo con un deporte.
+    🛣️ Asignación de Rutas
+      
+      -Crear rutas.
+      
+      -Selección de bus + equipo + transportista.
+      
+      -Vista de rutas activas.
+
     
-    -Listado general.
-    
-  🚚 Gestión de Transportistas
-    
-    -Registro de transportistas.
-    
-    -Visualización de buses asignados.
-    
-  🛣️ Asignación de Rutas
-    
-    -Crear rutas.
-    
-    -Selección de bus + equipo + transportista.
-    
-    -Vista de rutas activas.
-    
-  🔐 Autenticación (en roadmap)
-    
-    -Headers obligatorios según backend.
-    
-    -Token para seguridad.
+    🔐 Autenticación (en roadmap)
+      
+      -Headers obligatorios según backend.
+      
+      -Token para seguridad.
 
 🧱 Arquitectura Recomendada del Proyecto
    
