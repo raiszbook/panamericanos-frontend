@@ -25,14 +25,14 @@ Está conectada al backend oficial desarrollado en Spring Boot 3 + WebFlux, cons
       Image Picker	Subida de fotos desde cámara/galería
 🧩 Módulos y Pantallas
     🚍 Gestión de Buses
-  
-    -Listar buses con filtros.
-  
-    -Crear / editar / eliminar bus.
-  
-    -Ver QR del bus.
-  
-    -Subir fotos desde cámara o galería.
+    
+      -Listar buses con filtros.
+    
+      -Crear / editar / eliminar bus.
+    
+      -Ver QR del bus.
+    
+      -Subir fotos desde cámara o galería.
 
   
     🏆 Gestión de Equipos Deportivos
