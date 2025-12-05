@@ -34,7 +34,7 @@ Está conectada al backend oficial desarrollado en Spring Boot 3 + WebFlux, cons
   
     -Subir fotos desde cámara o galería.
 
-    🏆 Gestión de Equipos Deportivos
+  🏆 Gestión de Equipos Deportivos
     
     -Registro de equipos.
     
@@ -42,13 +42,13 @@ Está conectada al backend oficial desarrollado en Spring Boot 3 + WebFlux, cons
     
     -Listado general.
     
-    🚚 Gestión de Transportistas
+  🚚 Gestión de Transportistas
     
     -Registro de transportistas.
     
     -Visualización de buses asignados.
     
-    🛣️ Asignación de Rutas
+  🛣️ Asignación de Rutas
     
     -Crear rutas.
     
@@ -56,34 +56,35 @@ Está conectada al backend oficial desarrollado en Spring Boot 3 + WebFlux, cons
     
     -Vista de rutas activas.
     
-    🔐 Autenticación (en roadmap)
+  🔐 Autenticación (en roadmap)
     
     -Headers obligatorios según backend.
     
     -Token para seguridad.
 
 🧱 Arquitectura Recomendada del Proyecto
-    /lib
-      /config            → URLs, constantes, estilos
-      /models            → DTOs y entidades
-      /services          → Clientes HTTP (Dio / Http)
-      /providers         → Estado (Provider/Riverpod)
-      /pages
-        /bus
-          bus_list_page.dart
-          bus_form_page.dart
-          bus_qr_page.dart
-        /equipo
-          equipo_list_page.dart
-          equipo_form_page.dart
-        /transportista
-          transportista_list_page.dart
-          transportista_form_page.dart
-        /asignacion
-          asignacion_list_page.dart
-          asignacion_form_page.dart
-      /widgets           → Componentes reutilizables
-      main.dart
+   
+      /lib
+        /config            → URLs, constantes, estilos
+        /models            → DTOs y entidades
+        /services          → Clientes HTTP (Dio / Http)
+        /providers         → Estado (Provider/Riverpod)
+        /pages
+          /bus
+            bus_list_page.dart
+            bus_form_page.dart
+            bus_qr_page.dart
+          /equipo
+            equipo_list_page.dart
+            equipo_form_page.dart
+          /transportista
+            transportista_list_page.dart
+            transportista_form_page.dart
+          /asignacion
+            asignacion_list_page.dart
+            asignacion_form_page.dart
+        /widgets           → Componentes reutilizables
+        main.dart
 
 
 ✔ Modular
