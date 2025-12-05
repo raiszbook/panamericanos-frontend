@@ -176,19 +176,19 @@ flutter build apk
 ### 📱 Build Android (AppBundle para Play Store)
 ```bash
 flutter build appbundle
-
+```
 
 
 ### 📱 Build Web
 ```bash
 flutter build web
-
+```
 
 
 ### 📱 Build Tests
 ```bash
 flutter test
-
+```
 
 
 
