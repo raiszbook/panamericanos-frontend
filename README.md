@@ -2,6 +2,11 @@
 🎨 panamericanos-frontend
 
 Aplicación Flutter para la gestión logística de transporte, equipos y rutas — Juegos Panamericanos 2027
+[![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)]()
+[![Dart](https://img.shields.io/badge/Dart-stable-blue)]()
+[![Estado](https://img.shields.io/badge/status-En%20desarrollo-yellow)]()
+[![Plataformas](https://img.shields.io/badge/Android-iOS%20%7C%20Web-success)]()
+
 
 📌 Descripción General
 
