@@ -170,7 +170,7 @@ Comandos de build para tu sección “Cómo ejecutar / build”
 ### 📱 Build Android (APK debug)
 ```bash
 flutter build apk
-
+```
 
 
 ### 📱 Build Android (AppBundle para Play Store)
